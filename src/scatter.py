@@ -2,6 +2,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load the dataset
+
 filepath = '/workspaces/data-engineering-demo/data/2019.csv'
 df = pd.read_csv(filepath)
 
